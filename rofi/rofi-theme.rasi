@@ -1,0 +1,14 @@
+configuration {
+	width: 25;
+	lines: 5;
+	font: "Go Mono 14";
+	bw: 3;
+	padding: 10;
+	terminal: "termite -e";
+/*	disable-history: true; Dunno about this one*/
+/*	sidebar-mode: true; Dunno about this one, probably not*/
+	separator-style: "none";
+	hide-scrollbar: true;
+	color-normal: "#002b2b2b, #e6e1dc, #002b2b2b, #c0e6e1dc, #2b2b2b";
+	color-window: "#c02b2b2b, #6d9cbe, #6d9cbe";
+}
