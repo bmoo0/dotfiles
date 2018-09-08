@@ -20,10 +20,14 @@ cd .config/
 sudo apt update
 sudo apt -y upgrade
 
+
 # install and change shell to zsh
 sudo apt -y install zsh
 chsh -s /bin/zsh        # change shell for user and root
 sudo chsh -s /bin/zsh
+
+# install oh my zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # install slim login manager
 sudo apt install slim
